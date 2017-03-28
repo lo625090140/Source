@@ -10,12 +10,12 @@ public class HttpConstants {
     /**
      * 请求本地产品列表
      */
-    public static String PRODUCT_LIST = ROOT_URL + "/fund/search.php";
+    public static String PRODUCT_LIST = ROOT_URL + "search.json";
 
     /**
      * 本地产品列表更新时间措请求
      */
-    public static String PRODUCT_LATESAT_UPDATE = ROOT_URL + "/fund/upsearch.php";
+    public static String PRODUCT_LATESAT_UPDATE = ROOT_URL + "splash_ad_data.json";
 
     /**
      * 登陆接口
